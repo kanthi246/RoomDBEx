@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/twodp"
+    android:background="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/twodp"
+        android:textSize="@dimen/size18"
+        android:text="game" />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/twodp"
+        android:textSize="@dimen/size18"
+        android:text="@string/enter_name" />
+    <TextView
+        android:id="@+id/tv_questionone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/twodp"
+        android:textSize="@dimen/size18"
+        android:text="@string/questionone" />
+    <TextView
+        android:id="@+id/tv_answerone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/twodp"
+        android:textSize="@dimen/size18"
+        android:text="answerone" />
+    <TextView
+        android:id="@+id/tv_questiontwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/twodp"
+        android:textSize="@dimen/size18"
+        android:text="@string/question_to" />
+    <TextView
+        android:id="@+id/tv_answertwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/twodp"
+        android:textSize="@dimen/size18"
+        android:text="answerone" />
+
+</LinearLayout>
